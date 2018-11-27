@@ -870,12 +870,12 @@ Route::get('common_import/getResult', 'common_import/Import/getResult'); //获�
 /*******************************************导入************************************************/
 
 /*******************************************云销号************************************************/
-Route::rule('cloud_sale/portal_article', 'cloud_sale/portal_article/index'); //文章增、删、改、查
-Route::get('cloud_sale/portal_category', 'cloud_sale/portal_category/index'); //获取分类列表
-Route::rule('cloud_sale/review', 'cloud_sale/review/index'); //获取审核列表、审核、审核详情
-Route::get('cloud_sale/portal_article/withdraw', 'cloud_sale/portal_article/withdraw'); //撤回
-Route::get('cloud_sale/portal_article/republish', 'cloud_sale/portal_article/republish'); //重新发布
-Route::get('cloud_sale/review/getRemarks', 'cloud_sale/review/getRemarks'); //审核不通过原因列表
+Route::rule('cloud_sale/portal_article', 'cloud_sale/portal_article/index'); //文章增、删、改、查111
+Route::get('cloud_sale/portal_category', 'cloud_sale/portal_category/index'); //获取分类列表111
+Route::rule('cloud_sale/review', 'cloud_sale/review/index'); //获取审核列表、审核、审核详情111
+Route::get('cloud_sale/portal_article/withdraw', 'cloud_sale/portal_article/withdraw'); //撤回11
+Route::get('cloud_sale/portal_article/republish', 'cloud_sale/portal_article/republish'); //重新发布11
+Route::get('cloud_sale/review/getRemarks', 'cloud_sale/review/getRemarks'); //审核不通过原因列表11
 /*******************************************云销号************************************************/
 
 return [
