@@ -10,9 +10,9 @@
 // +----------------------------------------------------------------------
 use think\Route;
 
-Route::rule('product/category', 'product/category/cate');                 //企业--分类1111
-Route::get('product/category_tree', 'product/category/getCateTree');                 //云产品库指定分类树形结构111
-Route::rule('product/title', 'product/index/search_title');                 //企业--产品关键词搜索111
+Route::rule('product/category', 'product/category/cate');                 //企业--分类333
+Route::get('product/category_tree', 'product/category/getCateTree');                 //云产品库指定分类树形结构333
+Route::rule('product/title', 'product/index/search_title');                 //企业--产品关键词搜索333
 Route::rule('product/draft', 'product/draft/draft');                 //企业--等待审核列表|审核不通过列表    status=0|-1
 Route::rule('product/review', 'product/platform/review');                 //平台--审核操作
 Route::rule('platform/draft', 'product/platform/draft');                 //平台--等待审核列表|审核不通过列表
